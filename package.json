@@ -1,0 +1,43 @@
+{
+  "name": "vue-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QsuperMinQ/vue-ssr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QsuperMinQ/vue-ssr/issues"
+  },
+  "homepage": "https://github.com/QsuperMinQ/vue-ssr#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "rimraf": "^3.0.2",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
